@@ -1176,3 +1176,13 @@ header .footer-polosa {
         font-size: 14px;
     }
 }
+
+@media (max-width: 425px) {
+    .container {
+        margin: 0 20px;
+    }
+
+    .seans-title img{
+        display: none;
+        
+    }
