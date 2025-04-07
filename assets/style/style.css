@@ -1,0 +1,1178 @@
+body {
+    font-family: 'Proxima Nova',  sans-serif;
+    font-family: "El Messiri", sans-serif;
+    background-color: #162831;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Точно соответствует width и height */
+}
+
+.container{
+    margin: 0 112px;
+    /*0=сверху и снизу 
+    312=с лева и права*/
+
+}
+
+/* Header */
+
+header {
+    margin: 30px 0px 50px 0px;
+    /*30=сверху 0=справа 50 снизу 0 слева */
+    
+}
+
+.header-inner {
+    display: flex;
+    /* В строку расположение */
+    align-items: center;
+    /* Выравнивание по центру в строке */
+    justify-content: space-between;
+    /* выравниваем блоки на всю доступную шерину 
+    по центру с одинаковыми отступами 
+    между элементами равное растояние*/
+
+}
+/* тег нав обращение к тегу а */
+nav a {
+    color: #fff;
+    margin-right: 50px;
+    /* отступ от Главной до Сеансы по 50 и так далее  */
+    text-decoration: none;
+    font-family: 'Proxima Nova', sans-serif;
+
+    transition: color .3s ease;
+    /* Плавное изменение цвета */
+
+}
+/* убираем отступс права последней кнопки в меню "Блок"  */
+nav a:last-of-type {
+    margin-right: 0;
+}
+
+/* Замента цвета при наведени на сылки меню */
+nav a:hover {
+    color: #273ac4;
+}
+
+
+/* кнопка */
+.button-header {
+    background-color: #018ABE;
+    padding: 9px 15px 9px 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    font-family: 'Proxima Nova', sans-serif;
+
+    transition: all .2s ease;
+     /* Плавное изменение цвета */
+}
+
+/* Замента цвета при наведени на кнопку*/
+.button-header:hover {
+    background-color: #ffffff;
+    /* Изменение цвета кнопки */
+    color: #018ABE;
+    /* текст */
+}
+
+
+
+/* бургер*/
+.burger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+/* бургер */
+/* main */
+
+.main-inner {
+    background-image: url(../images/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+
+    text-align: center;
+    /* выровнили текст по центру этого блока
+     .main-inner-first  */
+}
+
+.main-inner-first {
+    padding-top: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* выровнили все элементы по центру  */
+    margin-bottom: 40px;
+    
+}
+
+.main-inner-first p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 66px;
+    margin-left: 66px;
+}
+
+.main-inner-first img {
+    width: 28px;
+    height: 14px;
+}
+
+.main-inner h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* ceans */
+
+.seans {
+    padding-bottom: 150px;
+
+}
+
+.seans-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+    
+}
+
+.seans-title p {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 800;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.seans-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seans-item {
+    background-image: url(../images/коста.jpg);
+    width: 416px;
+    height: 258px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+
+    position: relative;
+
+}
+
+.seans-item1 {
+    background-image: url(../images/Almata.jpg);
+    width: 416px;
+    height: 258px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+
+    position: relative;
+
+}
+
+.seans-item2 {
+    background-image: url(../images/Almata2.jpg);
+    width: 416px;
+    height: 258px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+
+    position: relative;
+
+}
+
+.seans-item3 {
+    background-image: url(../images/Алмата3.jpg);
+    width: 416px;
+    height: 258px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+
+    position: relative;
+
+}
+
+
+.seans-item4 {
+    background-image: url(../images/атырау.jpg);
+    width: 416px;
+    height: 258px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+
+    position: relative;
+
+}
+
+
+
+.card1-1 p:hover {
+    color: #018ABE;
+}
+
+
+
+
+
+/* ображщение к класу Р заголовки */
+.seans-item p {
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+    left: 40px;
+    bottom: 30px;
+}
+
+
+
+
+
+.seans-item1 p, .seans-item2 p, .seans-item3 p, .seans-item4 p  {
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    left: 40px;
+    bottom: 30px;
+
+}
+
+.seans-item1 p:hover, .seans-item2 p:hover, .seans-item3 p:hover,.seans-item4 p:hover {
+    color: #018ABE;
+}
+
+
+
+
+
+
+
+/* обращение к класу Р левой стороны блока */
+.seans-item .left p {
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+    left: 50px;
+    bottom: 50px;
+
+
+}
+
+/* Левый блок самая большая карточка */
+.left {
+    height: 540px;
+    border-bottom: #018ABE 7px solid;
+}
+
+/* левые карточки */
+.seans-right {
+    display: flex;
+}
+
+
+.seans-right div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Comments */
+
+
+.comments {
+    padding-bottom: 350px;
+    /* Отступ всего страницы снизу  */
+}
+
+
+
+.comments-liner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.comments-item {
+   background-color: #018ABE;
+   color: #fff;
+   padding: 60px;
+   /* Внешние отступы от текста  */
+   border-radius: 10px;
+   font-family: 'Proxima Nova',  sans-serif;
+}
+
+.comments-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.comments-item p {
+    font-size: 14px;
+    font-weight: 100px;
+    line-height: 140%;
+}
+
+.comments-item:nth-child(1),
+.comments-item:nth-child(3) {
+    transform: scale(0.8);
+
+
+} 
+
+.comments-item:nth-child(1),
+.comments-item:nth-child(3) {
+    opacity: 0.4;
+
+} 
+
+.comments-inner-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.comments-inner-bar img {
+    margin-right: 20px;
+}
+
+.comments-inner-bar img:nth-of-type(2),
+.comments-inner-bar img:nth-of-type(3),
+.comments-inner-bar img:nth-of-type(4) {
+    opacity: 0.4;
+}
+
+.comments-inner-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.indicator {
+    width: 15px;
+    height: 15px;
+    background-color: #018ABE;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s;
+    opacity: 0.4;
+}
+
+.indicator.active {
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+
+.about {
+    padding: 60px 90px;
+    background-color: #162831; /* или любой другой фон */
+  }
+  
+  .text {
+    color: #fff;
+    max-width: 600px;
+  }
+  
+  .abaut-block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .block img {
+    width: 40%;
+    min-width: 280px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .block .text {
+    width: 60%;
+    min-width: 280px;
+  }
+  
+  h2 {
+    color: #FFD700;
+  }
+/* Price */
+
+
+.price {
+    padding-bottom: 150px;
+}
+
+.price .seans-title {
+    margin-top: 150px;
+}
+
+.price-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-content-items {
+    margin-right: 134px;
+}
+
+.price-content-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+.price-content-item div {
+    display: flex;
+    align-items: center;
+}
+
+
+.price-content-item div img {
+    width: 18px;
+    height: 9px;
+    margin-right: 20px;
+}
+
+.price-content-item div h3 {
+    font-family: 'Proxima Nova',  sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.price-content-item p {
+    color: #fff;
+    margin-left: 80px;
+    font-family: "El Messiri", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price-content-image {
+    width: 526px;
+    height: 396px;
+}
+
+.price-content-image img {
+    display: block;   /* Убирает отступы */
+    width: 100%;       /* Растягивает по ширине */
+    height: 100%;      /* Растягивает по высоте */
+    object-fit: cover; /
+}
+
+
+
+.price-content-image p {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-family: "El Messiri", sans-serif;
+    font-weight: 700;
+    line-height: 140%;
+    margin-top: 30px;
+
+}
+
+
+/* footer */
+
+footer {
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    display: flex;
+    margin-bottom: 90px;
+
+}
+
+
+.footer-map iframe{
+    border-radius: 10px;
+    margin-right: 48px;
+}
+.footer-blocks {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-block {
+    background-color: #018ABE;
+    padding: 35px 45px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    color: #fff;
+
+    width: 392px;
+    height: 290px;
+}
+
+.footer-block h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.footer-block div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-family: 'Proxima Nova',  sans-serif;
+    
+
+}
+
+
+
+
+.footer-block div img {
+    margin-right: 20px;
+}
+
+
+.footer-block div:last-of-type {
+    margin-bottom: 30px;
+}
+
+
+.footer-button {
+    padding: 9px 15px;
+    background-color: #fff;
+    border-radius: 3px;
+    color: #018ABE;
+    text-decoration: none;
+    font-family: 'Proxima Nova',  sans-serif;
+    font-size: 13px;
+    
+}
+
+
+.footer-button:hover {
+    background-color: #018ABE;
+    color: #fff;
+     
+}
+
+.footer-buttom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Proxima Nova',  sans-serif;
+}
+
+
+.footer-buttom p:last-of-type {
+    font-weight: bold;
+}
+
+/* news */
+
+
+.news-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.news-item {
+    text-decoration: none;
+    background-image: url(../images/foto-card.png);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 30px 35px;
+    text-align: left;
+
+    width: 31%;
+    height: 258px;
+    margin: 12px;
+    transition: transform .3s ease;
+}
+
+.news-item:hover {
+    transform: scale(1.05);
+}
+
+
+
+.news-date {
+    color: #fff;
+    padding: 6px 12px;
+    background-color: #018ABE;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Proxima Nova',  sans-serif;
+    border-radius: 5px;
+    margin-bottom: 139px;
+}
+
+.news-item h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.footer-polosa {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+
+header .footer-polosa {
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+}
+
+
+
+/* newsFormat */
+
+
+
+.newsFormat-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 161px;
+}
+
+.newsFormat-inner div h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "El Messiri", sans-serif;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+.newsFormat-inner div {
+    margin-right: 134px;
+} 
+
+
+.newsFormat-inner div p {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Proxima Nova',  sans-serif;
+    color: #c7c7c7;
+    line-height: 140%;
+    width: 535px;
+}
+
+.newsFormat .news-date {
+    margin-bottom: 45px;
+}
+
+
+.news-form-img {
+    height: 394px;
+    width: 636px;
+    position: relative;
+}
+
+.news-form-img img {
+    position: absolute;
+    width: 125%;
+}
+
+/* blog */
+
+.blog-inner {
+    margin-bottom: 120px;
+}
+
+.blog-item {
+    display: flex;
+    padding: 50px 60px;
+    border: 2px #018ABE solid;
+    border-radius: 20px;
+    margin-bottom: 45px;
+
+
+}
+
+.blog-item .news-date {
+    margin-bottom: 30px;
+    
+}
+
+
+
+.blog-item img {
+    margin-right: 50px;
+    width: 50%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.blog-item div h2 {
+    font-size: 24px;
+    font-family: "El Messiri", sans-serif;
+    color: #fff;
+    
+}
+
+.blog-item div p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.blog-button {
+    background-color: #018ABE;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: 'Proxima Nova',  sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.blog-button:hover {
+    color: #018ABE;
+    background-color: #fff;
+}
+
+/* Основной стиль уже есть, ниже только адаптив + бургер-меню */
+
+@media (max-width: 768px) {
+    .header-inner {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #018ABE;
+        margin-top: 15px;
+        border-radius: 5px;
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .button-header {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    .main-inner {
+        height: auto;
+        padding: 40px 20px;
+        margin-bottom: 80px;
+    }
+    
+    .main-inner-first {
+        flex-direction: column;
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .main-inner-first img {
+        width: 24px;
+        height: 12px;
+        margin: 10px 0;
+    }
+    
+    .main-inner-first p {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    
+    .main-inner h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+    .seans {
+        padding-bottom: 80px;
+    }
+
+    
+
+    .seans-title p {
+        font-size: 28px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .seans-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seans-left,
+    .seans-right,
+    .seans-right div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    .comments-liner {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .comments-item {
+        width: 90%;
+        padding: 20px;
+        font-size: 16px;
+        transform: none !important;
+        opacity: 1 !important;
+    }
+
+    .comments-item h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .comments-item p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .comments-inner-bar {
+        margin-top: 30px;
+    }
+}
+
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    
+/*  */
+.block {
+    flex-direction: column; /* Столбцом на мобильных */
+    align-items: center;
+    text-align: center;
+}
+
+.block img {
+    order: 2; /* Изображение уйдет вниз */
+    width: 100%; /* Сделаем шире на мобилках */
+}
+
+.block .text {
+    order: 1; /* Текст остается сверху */
+    width: 100%;
+}
+    /*  */
+    
+
+  }
+
+  /* ----------------- Адаптив ------------------- */
+@media (max-width: 768px) {
+    .price-content {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .price-content-items {
+        margin-left: 100px;
+    }
+
+    .price-content-item {
+        
+        align-items: center;
+    }
+
+    .price-content-item p {
+        margin-left: 30px;
+        
+    }
+
+    .price .seans-title {
+        margin-top: 80px;
+        text-align: center;
+        
+        gap: 10px;
+    }
+
+    .price-content-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-map iframe {
+        width: 100%;
+        height: 400px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-blocks {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-block {
+        width: 45%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-block {
+        width: 100%;
+    }
+
+    .footer-block h2 {
+        font-size: 20px;
+    }
+
+    .footer-block div h3 {
+        font-size: 14px;
+    }
+
+    .footer-map iframe {
+        height: 300px;
+        width: 530px;
+        
+    }
+
+    .footer-button {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .footer-buttom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .seans-title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seans-title img {
+        width: 100px;
+        height: auto;
+    }
+
+    .seans-title p {
+        font-size: 16px;
+    }
+
+    .footer-map iframe {
+        height: 300px;
+        
+    }
+
+    .footer-block {
+        padding: 20px;
+    }
+
+    .footer-block h2 {
+        font-size: 18px;
+    }
+
+    .footer-block div h3 {
+        font-size: 13px;
+    }
+}
+
+
+/* достопремечательности адаптив  */
+@media (max-width: 1024px) {
+    .news-content {
+        justify-content: center;
+    }
+
+    .news-item {
+        width: 48%; /* Две карточки в ряд */
+        height: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .news-item {
+        width: 100%; /* Одна карточка на всю ширину */
+        height: 200px;
+        padding: 20px;
+    }
+
+    .news-date {
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    .news-item h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .blog-item {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .blog-item img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .blog-item-text {
+        text-align: center;
+    }
+
+    .blog-button {
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-item {
+        padding: 30px;
+    }
+
+    .blog-item div h2 {
+        font-size: 20px;
+    }
+
+    .blog-item div p {
+        font-size: 14px;
+    }
+
+    .blog-button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-item {
+        padding: 20px;
+    }
+
+    .blog-item div h2 {
+        font-size: 18px;
+    }
+
+    .blog-item div p {
+        font-size: 13px;
+    }
+
+    .blog-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
