@@ -1177,12 +1177,70 @@ header .footer-polosa {
     }
 }
 
+/* косяк */
+
+
+
 @media (max-width: 425px) {
     .container {
         margin: 0 20px;
     }
 
+
+    .seans-inner {
+        flex-direction: column;
+
+    }
+
+
+
+    .seans-item {
+        width: 370px;
+        height: 300px;
+    }
+
+    .seans-item1 ,.seans-item2,.seans-item3,.seans-item4{
+        width: 370px;
+    }
+
+
+
     .seans-title img{
         display: none;
-        
+        margin-top: 300px;
     }
+
+    .main-inner h1 {
+        font-size: 25px;
+    }
+
+    .abaut-block {
+        margin: 0px -36px;
+        margin-right: px;
+
+    }
+
+    .price-content-item p {
+        font-size: 15px;
+    }
+    
+     .price {
+        margin-right: 0px;
+     }   
+   
+     .price-content-items {
+        margin: 0;
+     }
+
+        .about {
+            padding: 0;
+            margin: 0 40px;
+        }
+
+        .newsFormat-inner div p {
+            width: 382px;
+        }
+
+
+
+}
